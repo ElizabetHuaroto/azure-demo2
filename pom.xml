@@ -63,13 +63,10 @@
                     </excludes>
                 </configuration>
             </plugin>
-                   <plugin>
+                  <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-                <configuration>
-                    <release>11</release> <!-- Especifica la versión de lanzamiento deseada -->
-                </configuration>
+                <version>3.8.1</version> <!-- Cambia la versión del plugin a 3.8.1 -->
             </plugin>
         </plugins>
     </build>
